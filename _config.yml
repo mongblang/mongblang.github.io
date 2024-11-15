@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 블로그 # the main title
 
-tagline: 안녕하신가 # it will display as the subtitle
+tagline: hello hi nice to meet you # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
