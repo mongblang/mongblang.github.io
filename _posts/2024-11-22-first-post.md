@@ -4,7 +4,10 @@ date: 2024-11-22
 categories: [Blog]
 tags: [blog]
 layout: post
+author: mongblang
 ---
-# hello
-This is my first blog post
+# Testing
+This is my first blog post.  
+I'm practicing markdown grammar. 
+
 ![Alt text](/assets/img/mongblang.jpeg)
