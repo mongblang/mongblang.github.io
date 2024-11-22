@@ -195,6 +195,8 @@ defaults:
 
 sass:
   style: compressed
+  quiet_deps: true
+  sass_dir: _sass
 
 compress_html:
   clippings: all
