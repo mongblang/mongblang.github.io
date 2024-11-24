@@ -688,7 +688,7 @@ $btn-mb: 0.5rem;
   height: 100%;
   overflow-y: auto;
   width: $sidebar-width;
-  background: url(assets/img/yoonseul2.jpg);
+  background: var(--sidebar-bg-img); /*sidebar 배경사진*/
   background-size: auto;
   background-position: center;
   border-right: 1px solid var(--sidebar-border-color);
@@ -757,7 +757,8 @@ $btn-mb: 0.5rem;
   }
 
   .site-subtitle {
-    font-size: 95%;
+    font-size: 96%;
+    font-weight: 500;
     color: rgba(246, 254, 255, 99%);
     margin-top: 0.25rem;
     word-spacing: 1px;
@@ -803,13 +804,13 @@ $btn-mb: 0.5rem;
           font-size: 100%;
           opacity: 1;
           margin-right: 1.5rem;
-          color: rgba(222, 222, 222, 0.99);
+          color: rgba(241, 241, 241, 0.99);
         }
 
         span {
           font-size: 90%;
           letter-spacing: 0.2px;
-          color: rgba(222, 222, 222, 0.99);
+          color: rgba(241, 241, 241, 0.99);
         }
       }
 
@@ -856,9 +857,9 @@ $btn-mb: 0.5rem;
       align-items: center;
       justify-content: center;
 
-      &:not(:focus-visible) {
-        box-shadow: var(--sidebar-border-color) 0 0 0 1px;
-      }
+      // &:not(:focus-visible) {
+      //   box-shadow: var(--sidebar-border-color) 0 0 0 1px;  사이드바 아래 아이콘 테두리
+      // }
 
       &:hover {
         background-color: var(--sidebar-hover-bg);
