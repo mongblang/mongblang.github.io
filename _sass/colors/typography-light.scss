@@ -37,16 +37,17 @@
   );
 
   /* Sidebar */
-  --site-title-color: rgb(113, 113, 113);
+  --site-title-color: rgb(113, 113, 113); 
   --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
+  --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
   --sidebar-border-color: #efefef;
   --sidebar-muted-color: #545454;
   --sidebar-active-color: #1d1d1d;
-  --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
-  --sidebar-btn-bg: white;
-  --sidebar-btn-color: #8e8e8e;
-  --avatar-border-color: white;
+  --sidebar-hover-bg: rgba(143, 218, 250, 0.514); //사이드바 hover color
+  --sidebar-btn-bg: #ececec84;
+  --sidebar-bg-img: url("/assets/img/water.jpeg");
+  --sidebar-btn-color: #ffffff;
+  --avatar-border-color: rgb(56, 78, 143, 0); 
 
   /* Topbar */
   --topbar-bg: rgb(255, 255, 255, 0.7);
