@@ -47,4 +47,3 @@ author: mongblang
 
 ### 📍&nbsp; **수집된 데이터 및 피쳐 소개** 
 - 각 카테고리의 인기순 상위 100개 상품의 리뷰 데이터를 추출한 후 아래와 같은 형식으로 구조화 
-![alt text](<zigzag raw data example.png>)
